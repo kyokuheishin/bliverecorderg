@@ -6,7 +6,7 @@ Yet another BiliBili live recording tool.
 
 ## 0x01 使用方法
 ```
-bliverecorderg -room_id 直播间号
+bliverecorderg -roomid 直播间号
 ```
 目前仅支持单直播间下载，且无自动检测直播间开播下载功能
 
