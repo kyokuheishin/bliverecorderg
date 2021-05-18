@@ -157,8 +157,8 @@ func main() {
 		return
 	}
 
-	c.AddFunc("@every 2s", func() {
-		fmt.Println("hi")
+	c.AddFunc("@every 30s", func() {
+
 		roomIdNeedToBeCheck := <-roomChecklist
 		fmt.Println("Now checking:" + strconv.Itoa(roomIdNeedToBeCheck))
 		defer func() { roomChecklist <- roomIdNeedToBeCheck }()
